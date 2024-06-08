@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combined Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-gray-100">
+
+    <section id="home">
+
+        <div class="flex items-center justify-center bg-no-repeat bg-center" 
+        style="background-image: url('Images/globe image.jpg'); 
+        background-size: contain; margin-left: 15%; width: 890px; height: 860px;">
+
+            <div class="p-4 border-2 border-green-500 relative mb-48">
+                <img src="Images/image icon.png" alt="Center Image" class="opacity-60 p-2 mx-auto">
+                <p class="text-1xl font-bold text-white mt-4 text-center">Web Development</p>
+            </div>
+
+            <div class="absolute bottom-0 left-1/2 transform -translate-x-1/2 mt-36">
+                <p class="text-4xl font-bold text-white">Web Development</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="filter" class="py-10 mb-80 -mt-48">
+
+        <div class="max-w-4xl mx-auto p-4 bg-white rounded shadow">
+
+            <h2 class="text-2xl font-bold mb-6">Filter</h2>
+
+            <div class="flex mb-6 space-x-4">
+                <div class="flex items-center border border-green-700 text-green-700 p-4 rounded flex-1">
+                    <span class="flex-1">Category</span>
+                </div>
+
+                <div class="flex items-center border border-green-700 text-green-700 p-4 rounded flex-1">
+                    <span class="flex-1">Region</span>
+                </div>
+
+                <div class="flex items-center border border-green-700 text-green-700 p-4 rounded flex-1">
+                    <span class="flex-1">Category</span>
+                </div>
+
+                <div>
+                    <button class="bg-green-700 text-white px-4 py-5 rounded text-sm">GO</button>
+                </div>
+
+            </div>
+
+
+            <div class="flex space-x-4 mb-6">
+
+                <div class="border p-4 rounded flex-1 border-green-700">
+                    <div class="flex flex-col items-center">
+                        <div class="border-2 border-white rounded-full border-green-700 p-1 mb-2">
+                            <img src="Images/person image.png" alt="Person 1" class="rounded-full w-24 h-24">
+                        </div>
+                        
+                        <h3 class="text-xl font-bold">John Doe Smith</h3>
+                        <p class="text-gray-600">Web Developer</p>
+                        <p class="flex items-center mt-2 space-x-2">
+                            <span class="text-yellow-400">★ </span> 
+                            <span class="text-gray-600;">4.5</span>
+                        </p>
+                        <p class="ml-2 text-gray-600">123 Profile Views</p>
+                        <button class="mt-4 bg-green-700 text-white px-4 py-2 rounded">View Profile</button>
+                    </div>
+                </div>
+
+                <div class="border p-4 rounded flex-1 border-green-700">
+                    <div class="flex flex-col items-center">
+                        <div class="border-2 border-white rounded-full border-green-700 p-1 mb-2">
+                            <img src="Images/person image.png" alt="Person 2" class="rounded-full w-24 h-24">
+                        </div>
+                        <h3 class="text-xl font-bold">John Doe Smith</h3>
+                        <p class="text-gray-600">Web Developer</p>
+                        <p class="flex items-center mt-2 space-x-2">
+                            <span class="text-yellow-400">★</span>
+                            <span class="text-gray-600;">4.5</span>
+                        </p>
+                        <p class="ml-2 text-gray-600">123 Profile Views</p>
+                        <button class="mt-4 bg-green-700 text-white px-4 py-2 rounded">View Profile</button>
+                    </div>
+                </div>
+
+                <div class="border p-4 rounded flex-1 border-green-700">
+                    <div class="flex flex-col items-center">
+                        <div class="border-2 border-white rounded-full border-green-700 p-1 mb-2">
+                            <img src="Images/person image.png" alt="Person 3" class="rounded-full w-24 h-24">
+                            <!-- <img src="Images/imagetick.png" alt="Verification Icon" class="absolute  w-8 h-8"> -->
+                        </div>
+                        <h3 class="text-xl font-bold">John Doe Smith</h3>
+                        <p class="text-gray-600">Web Developer</p>
+                        <p class="flex items-center mt-2 space-x-2">
+                            <span class="text-yellow-400">★</span>
+                            <span class="text-gray-600;">4.5</span>
+                        </p>
+                        <p class="ml-2 text-gray-600">123 Profile Views</p>
+                        <button class="mt-4 bg-green-700 text-white px-4 py-2 rounded">View Profile</button>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="text-center">
+                <button class="bg-green-700 text-white px-6 py-2 rounded">See More...</button>
+            </div>
+
+        </div>
+
+    </section>
+
+</body>
+</html>
